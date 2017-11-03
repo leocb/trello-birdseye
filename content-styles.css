@@ -31,15 +31,16 @@
 }
 
 .business .body-card-label-text .card-label.mod-card-front {
-    color: rgba(255, 255, 255, 1);
+    color: white;
     text-align: center;
 }
 
 .business .card-label.mod-card-front {
     float: left;
     height: 5px;
-    width: 10%;
-    color: rgba(0, 0, 0, 0);
+    width: auto;
+    min-width: 10%;
+    color: white;
     text-shadow: none;
     border-radius: 0px;
     margin: 0px;
@@ -55,7 +56,7 @@
     word-wrap: break-word;
     width: 60%;
     font-size: 11px;
-    line-height: 1.2em;
+    line-height: 1.4em;
     float: left;
     padding: 0;
 }
@@ -64,30 +65,29 @@
     float: right;
     width: 35%;
     text-overflow: clip;
-    border-left: 1px solid #eee;
-    padding: 0;
-    margin: 0;
+    border-left: 1px solid lightgray;
+    padding: 6px 0px;
+    margin: -6px 0px;
 }
 
 .business .badge-text {
     font-size: 8pt;
     padding: 0 2px;
     white-space: nowrap;
-    clear: both;
     display: inline-table;
 }
 
 .business .list-card-members {
-    clear: both;
     float: left;
-    margin: 0;
     display: block;
+    margin: 0;
 }
 
 .business .list-card-members .member {
-    float: right;
     margin: 0;
     border-radius: 0px;
+    height: 24px;
+    width: 24px;
 }
 
 .business .list-card-members .member .member-avatar {
