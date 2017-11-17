@@ -3,95 +3,100 @@
  */
 
 .business .list-wrapper {
-    width: 320px;
-    margin: 0 5px;
-    height: 100%;
-    box-sizing: border-box;
-    display: inline-block;
-    vertical-align: top;
-    white-space: nowrap;
+  width: 320px;
+  margin: 0 5px;
+  height: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
 }
 
 .business .list-card .js-member-droppable .ui-droppable {
-    max-width: none;
+  max-width: none;
 }
 
 .business .list-card-details {
-    overflow: hidden;
-    padding: 0;
-    padding-top: 6px;
-    position: relative;
-    z-index: 10;
-    width: auto;
+  overflow: hidden;
+  padding: 0;
+  padding-top: 6px;
+  position: relative;
+  z-index: 10;
+  width: auto;
+  display: flex;
 }
 
 .business .list-card-labels {
-    margin: -6px 0px 0px;
-    overflow: hidden;
+  margin: -6px 0px 0px;
+  overflow: hidden;
+  position: absolute
 }
 
 .business .body-card-label-text .card-label.mod-card-front {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .business .card-label.mod-card-front {
-    float: left;
-    height: 5px;
-    width: auto;
-    min-width: 10%;
-    color: white;
-    text-shadow: none;
-    border-radius: 0px;
-    margin: 0px;
+  float: left;
+  height: 5px;
+  width: auto;
+  min-width: 10%;
+  color: white;
+  text-shadow: none;
+  border-radius: 0px;
+  margin: 0px;
 }
 
 .business .list-card-title {
-    clear: both;
-    display: block;
-    font-weight: 400;
-    margin: 2%;
-    overflow: hidden;
-    text-decoration: none;
-    word-wrap: break-word;
-    width: 60%;
-    font-size: 11px;
-    line-height: 1.4em;
-    float: left;
-    padding: 0;
+  font-weight: 400;
+  margin: 3px;
+  margin-left: 6px;
+  overflow: hidden;
+  text-decoration: none;
+  word-wrap: break-word;
+  width: 54%;
+  font-size: 11px;
+  line-height: 1.4em;
+  float: left;
+  padding: 0;
 }
 
 .business .badges {
-    float: right;
-    width: 35%;
-    text-overflow: clip;
-    border-left: 1px solid lightgray;
-    padding: 6px 0px;
-    margin: -6px 0px;
+  text-overflow: clip;
+  border-left: 1px solid lightgray;
+  margin: 0;
+  margin-top: -6px;
+  padding: 3px;
+  padding-top: 9px;
+  min-height: 16px;
+  width: 32%;
 }
 
 .business .badge-text {
-    font-size: 8pt;
-    padding: 0 2px;
-    white-space: nowrap;
-    display: inline-table;
+  font-size: 8pt;
+  padding: 0 2px;
+  white-space: nowrap;
+  display: inline-table;
 }
 
 .business .list-card-members {
-    float: left;
-    display: block;
-    margin: 0;
+  margin: 0;
+  width: 25px;
+  min-width: 25px;
+  align-self: flex-start;
+  margin-top: -6px;
 }
 
 .business .list-card-members .member {
-    margin: 0;
-    border-radius: 0px;
-    height: 24px;
-    width: 24px;
+  margin: 0;
+  border-radius: 0px;
+  height: 25px;
+  width: 25px;
 }
 
 .business .list-card-members .member .member-avatar {
-    height: 24px;
-    width: 24px;
-    border-radius: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 0;
 }
